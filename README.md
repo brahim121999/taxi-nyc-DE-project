@@ -1,43 +1,43 @@
 # NYC Yellow Taxi Data Engineering & Analytics Project
 
-## 🚕 Contexte
+## 🚕 Context
 
-Ce projet a pour objectif de simuler une mission data engineering & data analytics pour le secteur du transport urbain. Il s’appuie sur le jeu de données public des taxis jaunes new-yorkais afin d’analyser la performance du service, identifier des leviers d’optimisation et fournir des indicateurs stratégiques pour la prise de décision.  
+This project aims to simulate a data engineering and data analytics mission for the urban transport sector. It is based on the public dataset of New York yellow taxis, with the goal of analyzing service performance, identifying optimization levers, and providing strategic indicators to support decision-making.
 
-L’ensemble des étapes a été modélisé comme un projet réel : de l’ingestion des données brutes jusqu’à la restitution d’indicateurs via des vues métier (Business Views), en passant par la transformation, l’orchestration et l’automatisation des traitements.
-
----
-
-## 🏗️ Architecture et pipeline
-
-- **Stockage** : Google Cloud Storage (GCS)  
-- **Ingestion / Transformation** : BigQuery (requêtes SQL avancées, calculs de KPI)  
-- **Orchestration** : Apache Airflow (Cloud Composer)  
-- **Analyse exploratoire** : Python / BigQuery  
-- **Visualisation** : Business Views pour dashboards  
+All stages have been modeled as a real project: from raw data ingestion to the delivery of indicators through business views, including transformation, orchestration, and automation of the processing workflows.
 
 ---
 
-## 🔎 Problématiques business
+## 🏗️ Architecture and Pipeline
 
-- Évolution des revenus des taxis jaunes dans le temps  
-- Analyse du prix moyen par course en fonction de la distance, de l’heure et du secteur  
-- Étude des modes de paiement et leur évolution  
-- Analyse du comportement de pourboire des clients selon contexte (période, montant, localisation)  
-- Répartition géographique des trajets et volumes selon les zones de NYC  
-- Analyse spécifique des trajets aéroportuaires (JFK, LaGuardia, Newark)  
-- Fréquences et durées moyennes des courses  
-- Identification des heures et zones de pics d’activité  
-- Impact des charges additionnelles (taxes, surcharges)  
-- Prévisions de la demande et recommandations pour optimiser la flotte  
+- **Storage**: Google Cloud Storage (GCS)
+- **Ingestion / Transformation**: BigQuery (advanced SQL queries, KPI calculations)
+- **Orchestration**: Apache Airflow (Cloud Composer)
+- **Exploratory Analysis**: Python / BigQuery
+- **Visualization**: Business Views for dashboards
 
 ---
 
-## 🧩 Technologies utilisées
+## 🔎 Business Questions Addressed
 
-- **Python** (scripts d’analyse, intégration BigQuery)  
-- **SQL / BigQuery** (transformations, modélisation analytique)  
-- **GCP / GCS** (stockage cloud)  
-- **Apache Airflow (Cloud Composer)** (orchestration des pipelines)  
-- **GitHub** (versionning et documentation)  
-- **Business Views** (vues orientées métier pour restitution)  
+- Evolution of yellow taxi revenues over time
+- Analysis of average fare per ride depending on distance, time of day, and area
+- Study of payment methods and their trends
+- Analysis of customer tipping behavior depending on context (period, amount, location)
+- Geographic distribution of rides and volumes across NYC zones
+- Specific analysis of airport trips (JFK, LaGuardia, Newark)
+- Ride frequencies and average durations
+- Identification of peak hours and high-demand zones
+- Impact of additional charges (taxes, surcharges)
+- Demand forecasting and recommendations to optimize fleet deployment
+
+---
+
+## 🧩 Technologies Used
+
+- **Python** (analysis scripts, BigQuery integration)
+- **SQL / BigQuery** (transformations, analytical modeling)
+- **GCP / GCS** (cloud storage)
+- **Apache Airflow (Cloud Composer)** (pipeline orchestration)
+- **GitHub** (version control and documentation)
+- **Business Views** (business-oriented views for data delivery)
