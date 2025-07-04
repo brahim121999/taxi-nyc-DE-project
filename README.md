@@ -6,6 +6,8 @@ This project aims to simulate a data engineering and data analytics mission for 
 
 All stages have been modeled as a real project: from raw data ingestion to the delivery of indicators through business views, including transformation, orchestration, and automation of the processing workflows.
 
+**Dataset source**: [NYC Taxi Trip Record Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
+
 ---
 
 ## 🏗️ Architecture and Pipeline
