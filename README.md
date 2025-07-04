@@ -18,7 +18,7 @@ L’ensemble des étapes a été modélisé comme un projet réel : de l’ing
 
 ---
 
-## 🔎 Problématiques business adressées
+## 🔎 Problématiques business
 
 - Évolution des revenus des taxis jaunes dans le temps  
 - Analyse du prix moyen par course en fonction de la distance, de l’heure et du secteur  
