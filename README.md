@@ -35,11 +35,26 @@ All stages have been modeled as a real project: from raw data ingestion to the d
 
 ---
 
+## 🤖 Machine Learning with BigQuery ML
+
+A dedicated section of the project explores predictive modeling using **BigQuery ML**, including:
+
+- Creation of training and test datasets directly in BigQuery
+- Training of several regression models: **Boosted Tree**, **Random Forest**, **DNN Regressor** and **Automl Regressor**
+- Evaluation of models using common metrics (MAE, MSE, R²)
+- Predictions on new data
+- Analysis of **feature importance** to interpret model behavior
+
+This part was built entirely with **SQL inside BigQuery**.
+
+---
+
 ## 🧩 Technologies Used
 
 - **Python** (analysis scripts, BigQuery integration)
-- **SQL / BigQuery** (transformations, analytical modeling)
+- **SQL / BigQuery** (transformations, analytical modeling, ML models)
 - **GCP / GCS** (cloud storage)
 - **Apache Airflow (Cloud Composer)** (pipeline orchestration)
+- **BigQuery ML** (machine learning via SQL)
 - **GitHub** (version control and documentation)
 - **Business Views** (business-oriented views for data delivery)
